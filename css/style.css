@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px;
+}
+.text-header{
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    border: #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.content{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 100px;
+    width: 100%;
+}
+
+.content-header {
+    color: #fff;
+    background-color: #00197bf7; /* Background color for content-header */
+    padding: 8px; /* Add padding for better appearance */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    text-align: center;
+}
+
+.content-body {
+    margin-top: 10px;
+    display: flex;
+}
+
+.content-body img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.form-container button {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    border: #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.hasil{
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+

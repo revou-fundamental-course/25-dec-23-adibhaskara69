@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Kalkulator Matematik Segitiga</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="text-header">
+            <h1>
+                Welcome to Katik
+            </h1>
+            <p>
+                Hi sobat, selamat datang di Katik.
+            </p>
+            <p>
+                Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
+            </p>
+        </div>
+        <a href="javascript:void(0)" id="button-luas-segitiga" class="button active">Luas Segitiga</a>
+        <a href="javascript:void(0)" id="button-keliling-segitiga" class="button">Keliling Segitiga</a>
+
+        <div class="content" id="content-luas-segitiga" style="display: block;">
+            <div class="content-header">
+                <h1>Luas Segitiga</h1>
+            </div>
+            <div class="content-body">
+                <img src="https://pulpent.com/wp-content/uploads/2021/08/Rumus-Segitiga.jpg"/>
+                <div class="form-container">
+                    <label for="alas-segitiga">Alas Segitiga (s)</label>
+                    <input type="number" id="alas-segitiga" name="alas" required>
+
+                    <label for="tinggi-segitiga">Tinggi Segitiga (t)</label>
+                    <input type="number" id="tinggi-segitiga" name="tinggi" required>
+                
+                    <button type="button" id="hitung-luas-segitiga" class="button">Hitung</button>
+
+                    <p id="hasil-luas" class="hasil">
+                        0
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="content-keliling-segitiga" style="display: none;">
+            <div class="content-header">
+                <h1>Hitung Keliling Segitiga</h1>
+            </div>
+            <div class="content-body">
+                <img src="https://pulpent.com/wp-content/uploads/2021/08/Rumus-Segitiga.jpg"/>
+                <div class="form-container">
+                    <label for="sisi-segitiga-1">Sisi Segitiga 1 (s)</label>
+                    <input type="number" id="sisi-segitiga-1" name="sisi1" required>
+
+                    <label for="sisi-segitiga-2">Sisi Segitiga 2 (s)</label>
+                    <input type="number" id="sisi-segitiga-2" name="sisi2" required>
+
+                    <label for="sisi-segitiga-3">Sisi Segitiga 3 (s)</label>
+                    <input type="number" id="sisi-segitiga-3" name="sisi3" required>
+                
+                    <button type="button" id="hitung-kll-segitiga" class="button">Hitung</button>
+
+                    <p id="hasil-kll" class="hasil">
+                        0
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/script.js"></script>
+</html>
